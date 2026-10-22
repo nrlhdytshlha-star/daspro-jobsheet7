@@ -7,6 +7,8 @@ public class TugasBioskop26 {
         int totalTiketTerjual = 0;
         double totalHargaPenjualan = 0;
         int jumlahTiket;
+        //boolean ulang = true;
+        String nextTiket;
 
         System.out.println("=== PROGRAM PENJUALAN TIKET BIOSKOP ===");
         System.out.println("(Ketik 0 untuk mengakhiri transaksi harian)");
@@ -41,6 +43,13 @@ public class TugasBioskop26 {
 
             System.out.println("Total bayar transaksi ini: Rp " + totalHargaTransaksi);
             System.out.println("----------------------------------------");
+            System.out.println("Apakah anda ingin pembelian tiket lagi (Y/T)?");
+            sc.nextLine();
+            nextTiket = sc.nextLine();
+            
+            if (nextTiket.equalsIgnoreCase("T"))
+                break;
+            
         }
 
         System.out.println("\n=== REKAP PENJUALAN HARIAN ===");
