@@ -23,7 +23,7 @@ public class SiakadWhile26{
              }else if(nilai > 60 && nilai <= 65){
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " Adalah C+");
              }else if(nilai > 50 && nilai <= 60){
-                System.out.printqqln("Nilai mahasiswa ke-" + (i + 1) + " Adalah C");
+                System.out.println("Nilai mahasiswa ke-" + (i + 1) + " Adalah C");
              }else if(nilai > 39 && nilai <= 50){
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " Adalah D");
              }else{
